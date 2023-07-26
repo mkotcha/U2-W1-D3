@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #fbf7e3;
+  border-radius: 100px;
+}
+
+ul {
+  display: flex;
+  font-size: 1.4em;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 200px;
+  align-items: center;
+}
+
+li {
+  background-color: #f3df85;
+  padding: 20px;
+  border-radius: 50vh;
+}
+
+li:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+}
+
+li img {
+  max-width: 100px;
+  margin-right: 40px;
+}
+
+li p {
+  font-size: 1.4em;
+  margin-right: 20px;
+}
