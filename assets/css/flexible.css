@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+article {
+  background-color: #fbf7e3;
+  color: #6f381c;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+h2 {
+  font-size: 1.6em;
+  padding-block: 16px;
+}
+
+p {
+  font-size: 1.2em;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  article {
+    flex-direction: row-reverse;
+  }
+
+  .article-text {
+    padding-left: 20px;
+  }
+}

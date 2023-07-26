@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-h2,
-h3,
-h4,
-p {
-  /* margin: 0; */
-}
-
 .product-card {
   color: #5f270b;
   background-color: #fbf7e3;
