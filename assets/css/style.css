@@ -66,6 +66,7 @@ li p {
 .product-text h4 {
   padding-inline: 20px;
 }
+
 @media only screen and (min-width: 768px) {
   nav {
     /* float: left; */
@@ -107,7 +108,7 @@ li p {
   }
 
   .product-card h4 {
-    padding-inline: 0;
+    padding-inline: 10px;
   }
 }
 
