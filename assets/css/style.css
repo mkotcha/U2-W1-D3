@@ -10,7 +10,8 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.6em;
+  font-weight: bold;
   padding: 20px;
 }
 
@@ -22,14 +23,15 @@ h2 {
 nav {
   background-color: #fbf7e3;
   border-radius: 100px;
+  padding: 16px;
 }
 
 ul {
   display: flex;
-  font-size: 1em;
+  font-size: 0.8em;
+  font-weight: bold;
   width: 100%;
   justify-content: space-evenly;
-  height: 200px;
   align-items: center;
 }
 
@@ -45,13 +47,12 @@ li:nth-of-type(3) {
 }
 
 li img {
-  max-width: 80px;
-  margin-right: 40px;
+  max-width: 60px;
+  margin-right: 10px;
 }
 
 li p {
   font-size: 1.4em;
-  margin-right: 20px;
 }
 
 .product-container {
@@ -59,19 +60,18 @@ li p {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  margin: 20px;
+  margin: 0 20px;
 }
 
 .product-card {
   background-color: #fbf7e3;
-  border-radius: 50px;
+  border-radius: 40px;
   overflow: hidden;
   width: 49%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  /* height: 500px; */
   margin-bottom: 20px;
 }
 
@@ -104,13 +104,14 @@ li p {
   margin-bottom: 20px;
   height: 40px;
   font-size: 1em;
+  font-weight: bold;
 }
 article {
   background-color: #fbf7e3;
   display: flex;
   flex-direction: column;
-  padding: 40px;
-  border-radius: 40px;
+  padding: 30px;
+  border-radius: 30px;
   margin-inline: 20px;
 }
 
